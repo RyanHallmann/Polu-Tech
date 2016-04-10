@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Air Polution :"
+        android:id="@+id/txtvAirPolTitle"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:width="250dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Land Polution :"
+        android:id="@+id/txtvLandPolTitle"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtvAirPolTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:width="250dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nature Polution :"
+        android:id="@+id/txtvNaturePolTitle"
+        android:layout_below="@+id/txtvLandPolTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:width="250dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ocean Polution :"
+        android:id="@+id/txtvOceanPolTitle"
+        android:layout_below="@+id/txtvNaturePolTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:width="250dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Company Size :"
+        android:id="@+id/txtvCompanySizeTitle"
+        android:layout_below="@+id/txtvOceanPolTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:width="250dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Money :"
+        android:id="@+id/txtvMoneyTitle"
+        android:layout_marginTop="59dp"
+        android:width="250dp"
+        android:layout_below="@+id/txtvCompanySizeTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Days Left :"
+        android:id="@+id/txtvDaysTitle"
+        android:width="250dp"
+        android:layout_below="@+id/txtvMoneyTitle"
+        android:layout_alignLeft="@+id/txtvMoneyTitle"
+        android:layout_alignStart="@+id/txtvMoneyTitle"
+        android:layout_marginLeft="67dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtvAirPol"
+        android:width="100dp"
+        android:layout_alignTop="@+id/txtvAirPolTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="100"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtvLandPol"
+        android:width="100dp"
+        android:text="100"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtvAirPolTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtvNaturePol"
+        android:width="100dp"
+        android:text="100"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtvLandPol"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtvOceanPol"
+        android:width="100dp"
+        android:text="100"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtvNaturePol"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtvCompanySize"
+        android:width="100dp"
+        android:text="100"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtvOceanPol"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtvMoney"
+        android:width="100dp"
+        android:text="100"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/txtvMoneyTitle"
+        android:layout_toLeftOf="@+id/txtvCompanySize"
+        android:layout_toStartOf="@+id/txtvCompanySize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtvDaysLeft"
+        android:width="100dp"
+        android:text="100"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/txtvDaysTitle"
+        android:layout_alignLeft="@+id/txtvMoney"
+        android:layout_alignStart="@+id/txtvMoney" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Day"
+        android:id="@+id/btnNextDay"
+        android:layout_marginBottom="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:onClick="NextDay" />
+</RelativeLayout>
